@@ -1,0 +1,44 @@
+                                                                                                      Linux File System
+
+              A Linux FIle System is a structured collection of files on a disk drive or a partition .A partition is a segment of memory and contains some specific data.in our machine,there can 
+be various partitions of the memory.
+The general-purpose computer system neeeds to store data systematically so that we can easily access the files in less time.It stores the data on hard disksor some equivalent storage
+type.
+linux file system contains the following sections:
+   1.The Root Directory(/).
+   2.A Specific data storage format(EXT3,EXT4,BTRFS,XFS and soon).
+   3.A partition or Logical volume having a particular file system.
+             Linux file system is generally built-in layer of a Linux Operating system used to handle the data management of the storage.It helps to arrange the file on the disk storage.It
+manages the file name,file size,creation date,and much more information about a file.
+ Linux File System Structure:
+                  Linux File system has a hierarchial file structure as it contains a root directory and its subdirectories.All other directories can be accessed from the root directory.a
+partition usually has only one file system,but it may have more than one file system.
+Linux File System Features:
+                 In linux,the file system creates a tree structure. All the files are arranged as a tree and its branches.The topmost directory called the ROOTDIRECTORY(/).All other 
+directories in linux can be accessed from the root directory.
+Some key features of Linux file system are as following:
+    *specifying paths:Linux does not use the backslash(\) to seperate the components;it uss forward slash(/) as an alternative.
+   *Partition,Directories,and Drives:Linux does not use drive letters to organize the drive as windows does.In Linux,We cannot tell whether we are addessing a patition, a network device,
+or an "ordinary"directory and a drive.
+Case Sensitivity:Linux file system is case sensitive. It distingushes between lowercase and uppercase file names.Such as,there is a difference between test.txt and test.txt in Linux.This 
+rule is applied for directories and linux commands.
+   *File Extensions:In Linux,a file may have the extension'.txt',but it is npot neccessary that a file sould have a file extension.
+   *Hidden Files:Linux distinguishes between standard files and hidden files,mostly the configuration files and hidden in linux OS.Usually,we don't need to access or read the hidden files.
+The hidden files in linux are represented by adot(.)before the file name(e.g., .ignore).To access the files ,we need to change the view in the file manager or need to use a specific command
+in the shell.
+   Types of Linux File System:
+      1.EXT,EXT2,EXT3 and EXT4 file system
+      2.JFS File System
+      3.ReiserFS File System
+     4.XFS File System
+     5.Btrfs File System
+    6.Swap File System.
+Linux Create File:
+        linux files are case sensitive,so test.txt and test.txt will be considered as two different files.There are multiple ways to create a file in linux.Some conventional methods are as 
+Follows:
+*using cat command 
+*using touch command
+*using redirect'>'symbol
+*using echo command
+*using printf command 
+*using a different text editor like vim,nano,vi.     
