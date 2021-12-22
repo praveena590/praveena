@@ -9,4 +9,4 @@
       git status 	            : to know the status of the git and also whether if the files are commited or not 
       git add file-name       : adds the files
       git commit -m "message" : commits the added files
-    
+   
